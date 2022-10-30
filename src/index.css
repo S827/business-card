@@ -4,16 +4,70 @@
 body {
   background-color: #23252C;
   margin: 10% 10% 10% 10%;
-  /* margin-left: auto; */
+  font-family:'Courier New', Courier, monospace;
 }
 .img-div {
-  width: 100%;
+  width: 400px;
   border: 2px solid orangered;
   border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
-  font-family:'Courier New', Courier, monospace;
+  
   font-size: 25px;
   font-weight: 700;
+  text-align: center;
+  color: #FFFFFF;
+  line-height: 30px;
+}
+.desig {
+  color: #F3BF99;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.email-btn {
+  width: 150px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+}
+.email-link {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  /* padding-left: */
+}
+.email {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+.linkedin-btn {
+  width: 150px;
+  height: 36px;
+  background-color: #5093E2;
+  border: none;
+  border-radius: 5px;
+}
+.linkedin-link {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  /* padding-left: */
+}
+.linkedin {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+.info-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
