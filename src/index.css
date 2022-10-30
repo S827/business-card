@@ -120,4 +120,8 @@ a:link, a:visited, a:hover, a:active, a:focus {
   bottom: 0;
   left: 10%;
   right: 10%;
+  font-size: 14px;
+}
+.footer > a {
+  color: #918E9B;
 }
