@@ -67,7 +67,33 @@ body {
   margin-bottom: 2px;
 }
 .info-links {
+  width: 350px;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  
+}
+
+.about, .interest {
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  margin-top: 33px;
+}
+.about-heading, .interest-heading {
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+.about-content, .interest-content {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  color: #DCDCDC;
 }
