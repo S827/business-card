@@ -1,3 +1,19 @@
 * {
   box-sizing: border-box;
 }
+body {
+  background-color: #23252C;
+  margin: 10% 10% 10% 10%;
+  /* margin-left: auto; */
+}
+.img-div {
+  width: 100%;
+  border: 2px solid orangered;
+  border-radius: 10px;
+}
+
+.title {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 25px;
+  font-weight: 700;
+}
