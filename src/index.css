@@ -3,7 +3,7 @@
 }
 body {
   background-color: #23252C;
-  margin: 10% 10% 10% 10%;
+  margin: 5% 10% 10% 10%;
   font-family:'Courier New', Courier, monospace;
 }
 .img-div {
@@ -76,6 +76,11 @@ body {
   justify-content: space-between;
   
 }
+a:link, a:visited, a:hover, a:active, a:focus {
+  color: black;
+  text-decoration: none;
+}
+
 
 .about, .interest {
   width: 350px;
@@ -96,4 +101,23 @@ body {
   font-size: 13px;
   line-height: 150%;
   color: #DCDCDC;
+}
+
+.footer {
+  width: 350px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #161619;
+  color: #918E9B;
+  border-radius: 5px;
+  position: fixed;
+  /* background-position-x: absolute;
+  background-position-y: fixed; */
+  bottom: 0;
+  left: 10%;
+  right: 10%;
 }
